@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import {NgForm} from '@angular/forms';
 
 @Component({
   selector: 'app-root',

@@ -6,6 +6,8 @@
         </div>
     </div>
 
+    <hr id="top-hr">
+
 
     <!-- Form  -->
     <div id="form-container">
@@ -16,19 +18,29 @@
                     <h1>Log in</h1>
                 </div>
 
-                <div>
+                <div class="label-box">
                     <label>Username</label>
-                    <input type="text" name="username" ngModel required>
                 </div>
+                <input placeholder="Enter your username..." id="username-input" type="text" name="username" ngModel required>
+
+                <div class="label-box">
+                    <label>Password</label>
+                </div>
+                <input id="password-input" type="password" placeholder="Enter your password..." name="password" ngModel required>
+
+                <p id="problem">
+                    *Any technical issues contact us*
+                </p>
+
+                <hr>
 
                 <div>
-                    <label>password</label>
-                    <input type="password" name="password" ngModel required>
+                    <button class="" style="width:100%;">Continue</button>
                 </div>
 
-                <div>
-                    <button class="" style="width:100%;">Search</button>
-                </div>
+                <p>
+                    By continuing, you acknowledge that you understand and agree to the Terms & Conditions and Privacy Policy.
+                </p>
 
             </form>
         </div>
