@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { FormsModule, NgForm } from '@angular/forms';
 
 @Component({
   selector: 'app-login',
@@ -9,8 +8,4 @@ import { FormsModule, NgForm } from '@angular/forms';
   styleUrl: './login.component.scss'
 })
 export class LoginComponent {
-
-  onSubmit(f: NgForm){
-    console.log(f.value)
-  }
 }

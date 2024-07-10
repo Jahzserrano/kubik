@@ -1,0 +1,49 @@
+<div>
+    <!-- Nav basic display -->
+     <div id="logo-container">
+         <div id="logo-box">
+             <h1 id="logo">Kubik</h1>
+         </div>
+     </div>
+
+     <hr id="top-hr">
+
+
+     <!-- Form  -->
+     <div id="form-container">
+         <div>
+             <form class="login" [formGroup]="form" (ngSubmit)="onSubmit()">
+             <!-- <form> -->
+                 <div>
+                     <h1>Log in</h1>
+                 </div>
+
+                 <div class="label-box">
+                     <label>Username</label>
+                 </div>
+                 <input placeholder="Enter your username..." id="username-input" type="text" formControlName="username" required>
+
+                 <div class="label-box">
+                     <label>Password</label>
+                 </div>
+                 <input id="password-input" type="password" placeholder="Enter your password..." formControlName="password" required>
+
+                 <p id="problem">
+                     *Any technical issues contact us*
+                 </p>
+
+                 <hr>
+
+                 <div>
+                     <button class="" type="submit" style="width:100%;">Continue</button>
+                 </div>
+
+                 <p>
+                     By continuing, you acknowledge that you understand and agree to the Terms & Conditions and Privacy Policy.
+                 </p>
+
+             </form>
+         </div>
+
+     </div>
+ </div>
